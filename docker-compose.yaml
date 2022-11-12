@@ -32,3 +32,20 @@ services:
     volumes:
       - ./data:/data
       - ./extra:/extra
+  backups:
+    image: itzg/mc-backup
+    environment:
+      BACKUP_INTERVAL: "2h"
+      # instead of network_mode below, could declare RCON_HOST
+      # RCON_HOST: mc
+    volumes:
+      # mount the same volume used by server, but read-only
+      - mc:/data:ro
+      # use a host attached directory so that it in turn can be backed up
+      # to external/cloud storage
+      - ./mc-backups:/backups
+    # share network namespace with server to simplify rcon access
+    network_mode: "service:mc"
+
+volumes:
+  mc: {}
