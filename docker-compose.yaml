@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  mc:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      
+      # SERVER SETTINGS
+      DIFFICULTY: "normal"
+      MOTD: "§l§cWelcome Bastard!§r"
+      ICON: "/extra/server_icon.jpg"
+      MAX_PLAYERS: 10
+      SERVER_NAME: "Fellowship of Bastards Modded Minecraft Server"
+      WHITELIST_FILE: "/extra/whitelist.json"
+      OPS_FILE: "/extra/ops.json"
+      RCON_CMDS_STARTUP:  |-
+        gamerule doFireTick false
+
+      # FORGE SETUP
+      TYPE: FORGE
+      VERSION: 1.19.2
+      FORGE_VERSION: 43.1.7
+
+      # DATAPACKS
+      VANILLATWEAKS_SHARECODE: P2nUIm
+
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+      - ./extra:/extra
