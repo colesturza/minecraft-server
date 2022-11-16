@@ -2663,6 +2663,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2022-11-15 04:14:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:49 +0000"
@@ -3188,6 +3194,12 @@
   "minecraft:recipes/building_blocks/crimson_planks": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:50 +0000"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2022-11-15 16:59:25 +0000"
     },
     "done": true
   },
@@ -4711,9 +4723,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2022-11-15 04:53:38 +0000",
       "minecraft:skeleton": "2022-11-13 23:56:07 +0000",
       "minecraft:spider": "2022-11-12 05:17:43 +0000",
       "minecraft:creeper": "2022-11-13 23:57:20 +0000",
+      "minecraft:zombified_piglin": "2022-11-15 05:23:16 +0000",
       "minecraft:zombie": "2022-11-12 05:19:17 +0000",
       "minecraft:zombie_villager": "2022-11-12 23:59:16 +0000"
     },
@@ -4782,6 +4796,12 @@
   "create:recipes/create.base/crafting/kinetics/mechanical_press": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-11-15 04:53:38 +0000"
     },
     "done": true
   },
@@ -8325,6 +8345,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-11-15 04:18:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:49 +0000"
@@ -9783,6 +9809,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-11-15 04:14:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:49 +0000"
@@ -11025,6 +11057,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2022-11-15 18:15:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_fence_gate": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:49 +0000"
@@ -11077,6 +11115,7 @@
     "criteria": {
       "byg:weeping_witch_forest": "2022-11-12 05:35:25 +0000",
       "byg:zelkova_forest": "2022-11-12 20:23:19 +0000",
+      "byg:wailing_garth": "2022-11-15 04:14:55 +0000",
       "byg:howling_peaks": "2022-11-12 05:26:06 +0000",
       "byg:twilight_meadow": "2022-11-12 05:37:22 +0000",
       "byg:cardinal_tundra": "2022-11-12 05:34:35 +0000",
@@ -13092,6 +13131,7 @@
       "minecraft:grove": "2022-11-12 05:26:55 +0000",
       "minecraft:cold_ocean": "2022-11-12 19:07:37 +0000",
       "minecraft:forest": "2022-11-12 05:28:42 +0000",
+      "minecraft:deep_dark": "2022-11-15 04:17:55 +0000",
       "minecraft:meadow": "2022-11-12 05:28:03 +0000"
     },
     "done": false
@@ -14276,6 +14316,12 @@
   "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-11-12 04:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2022-11-15 18:07:21 +0000"
     },
     "done": true
   },
